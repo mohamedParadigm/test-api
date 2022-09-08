@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  display: block;
+  margin: 2rem auto;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%
+}
+.item {
+  max-width: 300px;
+}
