@@ -8,7 +8,6 @@ const Home = ({ Results }) => {
   const { BestSeller = [] } = Results;
 
   const { user } = useUser();
-  console.log(user)
 
   const { data, isLoading } = useData();
 
